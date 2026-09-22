@@ -1,0 +1,32 @@
+* {
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.p1 {
+    line-height: 1;
+}
+
+.p2 {
+    line-height: 1.5;
+}
+
+.p3 {
+    line-height: 2;
+}

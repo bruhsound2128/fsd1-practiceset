@@ -1,0 +1,24 @@
+* {
+    color: blue;
+}
+
+#box {
+    background-color: blue;
+    color: white;
+}
+
+.heading {
+    color: red;
+}
+
+.greenbutton {
+    background-color: green;
+}
+
+.para {
+    color: green;
+}
+
+#para {
+    color: red;
+}
