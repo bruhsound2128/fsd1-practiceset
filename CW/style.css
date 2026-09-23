@@ -1,0 +1,44 @@
+#media{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+@media (min-width:600px){
+    #media{
+        background-color: red;
+    }
+}
+
+#PS9{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}
+@media (min-width:600px) and
+         (min-width:900px){
+            #PS9{
+                background-color: pink;
+            }
+         }
+
+
+#hover{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transform: rotate(45deg);
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+#hover:hover{
+    background-color: red;
+    transform: scaleX(0.5);
+    transform: translate(100px);     
+    transform: skew(30deg);
+}
+
